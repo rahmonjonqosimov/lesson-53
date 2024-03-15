@@ -17,7 +17,6 @@ form.addEventListener("submit", (event) => {
     comment: comment.value,
   };
   DATA.push(newUser);
-  console.log(DATA);
   createTable(DATA);
   inputName.value = "";
   inputEmail.value = "";
